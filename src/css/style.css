@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+}
+/* MainNavbar */
+
+
+/* mainFooter */
+.footr{
+    display:flex;
+    flex-direction: row;
+    padding:100px 0 0 100px;
+}
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  #foot{
+    display:flex;
+    flex-direction: row;
+    letter-spacing: 10px;
+  }
+
+/* 
+  ProductCard */
+
+  .featur
+  {
+    display:flex;
+    flex-direction: row;
+    padding: 50px 0 10px 190px;
+    background-color: black;
+  }
+  
+/* FeatureCard */
+   
+
+/* 
+About */
+.ab{
+  padding: 10px 50px 10px 50px;
+}
+
+
+/* contact */
+.frm{
+  padding: 0 500px 0 500px;
+ 
+}
