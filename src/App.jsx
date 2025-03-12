@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Contact from './pages/Contact';
+import Services from './pages/Services';
+
 function App() {
 
   return (
@@ -16,8 +18,9 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/products" element={<Products/>} />
           <Route path="/contact-us" element={<Contact/>} />
+          <Route path="/services" element ={<Services/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
 
     </div>
   )

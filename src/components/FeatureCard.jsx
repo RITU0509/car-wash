@@ -14,6 +14,9 @@ const FeatureCard = (props) => {
           <Card.Text>
            {props.text}
           </Card.Text>
+          <Card.Text><span> Rs{props.price}</span>
+          
+          </Card.Text>
           <Button variant="primary"><FaHandPointRight />Learn More </Button>
         </Card.Body>
       </Card>

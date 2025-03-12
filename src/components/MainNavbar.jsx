@@ -16,6 +16,7 @@ function MainNavBar() {
                         <Link to="/about" className='nav-link'>About</Link>
                         <Link to="/products" className='nav-link'>Products</Link>
                         <Link to="/contact-us" className='nav-link'>ContactUs</Link>
+                        <Link to="/services" className='nav-link'>Services</Link>
                         {/* <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#link">About Us</Nav.Link>
                         <NavDropdown title="Products" id="basic-nav-dropdown">
