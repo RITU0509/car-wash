@@ -10,14 +10,14 @@ const FeatureCard = (props) => {
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={props.pic} />
         <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
+          <Card.Title style={{textAlign: "center"}}>{props.title}</Card.Title>
           <Card.Text>
            {props.text}
           </Card.Text>
-          <Card.Text><span> Rs{props.price}</span>
+          <Card.Text style={{textAlign: "center"}}><span> <strong>Rs{props.price}</strong></span>
           
           </Card.Text>
-          <Button variant="primary"><FaHandPointRight />Learn More </Button>
+          <Button variant="primary" style={{width: "100%"}}><FaHandPointRight />Learn More </Button>
         </Card.Body>
       </Card>
      </div>

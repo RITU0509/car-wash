@@ -7,7 +7,7 @@ function MainNavBar() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <img src="./public/logo1.png" alt="" width="80px" height="40px"/>
+                <img src="./public/logon.png" alt="" width="80px" height="40px"/>
                 <Navbar.Brand href="#home"><img src="/img/logo.png" alt="" width="150px" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

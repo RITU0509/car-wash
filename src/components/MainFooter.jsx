@@ -12,7 +12,7 @@ const MainFooter = () => {
  
     <div className="col mb-3">
     <ul className="nav flex-column">
-        <img src="./public/logo1.png" alt="" width="80px" height="50px" />
+        <img src="./public/logon.png" alt="" width="80px" height="50px" />
       {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
       <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
       <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>

@@ -37,7 +37,7 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
-
+      <div className="b-example-divider"></div>
 
 
       <div className="text-center">

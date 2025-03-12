@@ -9,19 +9,19 @@ import BreadCrumb from '../components/BreadCrumb';
 import AboutWidget from '../components/AboutWidget';
 
 
-
 function Home() {
   return (
     <div>
       <MainNavbar />
       <MySlider />
-      <BreadCrumb/>
-      <BreadCrumb mainlink="Home" pagename="Homepage" />
+   
+      {/* <BreadCrumb/> */}
+      {/* <BreadCrumb mainlink="Home" pagename="Homepage" /> */}
       <AboutWidget/>
       <div className="b-example-divider"></div>
       <Container>
       
-<Row className="d-f  bg-dark">
+<Row className="d-f  bg-light p-5">
 <h2 className="text-center text-primary"><strong>Speed Car Wash Services</strong>
            </h2>
            <h3  className="text-center text-primary"> Love your car, we make it more adorable.</h3>
@@ -32,7 +32,7 @@ function Home() {
   </Col>
   <Col md={3}><FeatureCard  pic="./public/detailing.png" title="Detailing" text=" primary motive to serve our customers with professional car detailing service with internationally approved standards to deliver impeccable quality..."/>
   </Col>
-  <Col md={3}><FeatureCard   pic="./public/wrapping.png" title="wrapping" text=" Our network of trained SCW Vehicle Wrappers can help you create impactful vehicle branding to simply cater for your colour change and car personalisation needs...."/>
+  <Col md={3}><FeatureCard   pic="./public/wrapping.png" title="wrapping" text=" Our network of trained SCW Vehicle Wrappers can help you create impactful vehicle branding to simply cater for your colour change and car personalisation "/>
   </Col>
 </Row>
 </Container>

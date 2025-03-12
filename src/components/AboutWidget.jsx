@@ -4,7 +4,7 @@ function AboutWidget() {
   return (
     <div>
       <Container>
-      <Row>
+      <Row className='p-5'>
         <Col lg={6} ><img src="./public/car.png"/>
         </Col>
         <Col lg={6}>

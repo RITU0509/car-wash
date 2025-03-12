@@ -6,6 +6,7 @@ const Detail = () => {
   return (
     <div>
       <MainNavBar/>
+      
       <MainFooter/>
     </div>
   )
