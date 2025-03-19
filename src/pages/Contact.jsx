@@ -59,13 +59,13 @@ const Contact = () => {
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Show Password" />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button   variant="primary" type="submit">
         Go
       </Button>
     </Form>
     <div>
-      <h1 className="py-5">Need Instant Help?</h1>
-      <Container>
+      <h1 >Need Instant Help?</h1>
+      <Container  className="p-5">
         <Row>
           <Col><Button  varient="primary" type="button" >Video tutorial</Button>
           </Col>

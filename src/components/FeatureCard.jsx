@@ -8,7 +8,7 @@ const FeatureCard = (props) => {
           
      <div className="d-flex justify-content-around py-30px">
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={props.pic} />
+        <Card.Img className="p-2" variant="top" src={props.pic} height="150px" width="90px" />
         <Card.Body>
           <Card.Title style={{textAlign: "center"}}>{props.title}</Card.Title>
           <Card.Text>
@@ -17,7 +17,7 @@ const FeatureCard = (props) => {
           <Card.Text style={{textAlign: "center"}}><span> <strong>Rs{props.price}</strong></span>
           
           </Card.Text>
-          <Button variant="primary" style={{width: "100%"}}><FaHandPointRight />Learn More </Button>
+          <Button variant="primary" style={{width: "100%"}}><FaHandPointRight />Add to cart </Button>
         </Card.Body>
       </Card>
      </div>
