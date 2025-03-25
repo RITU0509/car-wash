@@ -5,6 +5,7 @@ import Products from "./pages/Products";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Contact from './pages/Contact';
 import Services from './pages/Services';
+import Washing from './components/Washing';
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     <div>
       {/* <Home /> */}
       {/* <About/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
@@ -20,8 +21,8 @@ function App() {
           <Route path="/contact-us" element={<Contact/>} />
           <Route path="/services" element ={<Services/>}/>
         </Routes>
-      </BrowserRouter> 
-
+      </BrowserRouter>  */}
+<Washing/>
     </div>
   )
 }
